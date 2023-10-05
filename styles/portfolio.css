@@ -19,7 +19,8 @@ hr {
   width: 500px;
   display: block;
   margin: 0 auto;
-  transform: rotate(3deg);
+
+  transform: skew(100deg);
 }
 .hero {
   display: block;
@@ -36,12 +37,20 @@ hr {
   border-radius: 50%;
   background-color: #f0f0f0;
   padding: 20px;
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   text-align: center;
-  position: relative;
-  left: 100px;
-  top: 100px;
+  display: inline;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: solid 2px #9e85ac;
+}
+
+.rounded-container:hover {
+  cursor: pointer;
+  opacity: 80%;
 }
 
 #navbar {
