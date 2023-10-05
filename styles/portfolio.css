@@ -16,9 +16,10 @@ h3 {
 
 hr {
   border: 3px solid white;
-  width: 600px;
+  width: 500px;
   display: block;
   margin: 0 auto;
+  transform: rotate(3deg);
 }
 .hero {
   display: block;
