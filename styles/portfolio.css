@@ -64,9 +64,15 @@ hr {
   font-weight: normal;
 }
 
-img {
+.phylly {
   height: 40px;
   width: 40px;
   border-radius: 50%;
   opacity: 80%;
+}
+
+.world-clock {
+  border-radius: 50%;
+  height: 320px;
+  width: 350px;
 }
