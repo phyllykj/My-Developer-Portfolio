@@ -73,6 +73,7 @@ hr {
 #navbar {
   font-family: "Comfortaa", cursive;
   background-color: #defcf9;
+  max-width: 100%;
 }
 
 .navbar-brand {
@@ -105,4 +106,18 @@ hr {
   margin-top: 60px;
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .project-para {
+    display: none;
+  }
+}
+button {
+  padding: 20px;
+  border-radius: 20px;
+  font-family: "Permanent Marker", cursive;
+  font-size: 16px;
+  color: plum;
+  border: solid 2px plum;
 }
