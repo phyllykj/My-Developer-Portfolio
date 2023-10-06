@@ -54,6 +54,22 @@ hr {
   border: solid 2px #9e85ac;
 }
 
+.rounded-container-3 {
+  color: black;
+  border-radius: 50%;
+  background-color: plum;
+  padding: 20px;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  display: inline;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: solid 2px #9e85ac;
+}
+
 #navbar {
   font-family: "Comfortaa", cursive;
   background-color: #defcf9;
@@ -87,4 +103,6 @@ hr {
   font-size: 16px;
   font-family: "Comfortaa", cursive;
   margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
 }
