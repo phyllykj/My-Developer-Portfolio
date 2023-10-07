@@ -3,9 +3,9 @@ body {
   align-items: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1175px) {
   container {
-    margin-left: 60px;
+    align-items: center;
   }
 }
 
@@ -23,7 +23,7 @@ h3 {
 
 h5 {
   font-family: "Comfortaa", cursive;
-  color: black;
+  color: #8594e4;
   text-decoration: bold;
   font-size: 24px;
   margin-top: 20px;
@@ -81,9 +81,9 @@ hr {
 }
 
 .rounded-container {
-  color: black;
+  color: #8594e4;
   border-radius: 50%;
-  background-color: plum;
+  background-color: #6643b5;
   padding: 20px;
   width: 400px;
   height: 400px;
@@ -93,7 +93,7 @@ hr {
   margin: 0 auto;
   margin-bottom: 30px;
   padding: 20px;
-  border: solid 2px #9e85ac;
+  border: solid 2px #8594e4;
 }
 
 @media (max-width: 768px) {
@@ -101,22 +101,6 @@ hr {
     width: 300px;
     height: 300px;
   }
-}
-
-.rounded-container-3 {
-  color: black;
-  border-radius: 50%;
-  background-color: plum;
-  padding: 20px;
-  width: 400px;
-  height: 400px;
-  text-align: center;
-  display: inline;
-  justify-content: space-between;
-  margin: 0 auto;
-  margin-bottom: 30px;
-  padding: 20px;
-  border: solid 2px #9e85ac;
 }
 
 @media (max-width: 768px) {
@@ -133,7 +117,7 @@ hr {
 
 #navbar {
   font-family: "Comfortaa", cursive;
-  background-color: #defcf9;
+  background-color: #d5def5;
 }
 
 .navbar-brand {
@@ -169,6 +153,7 @@ hr {
 
 .project-para {
   color: white;
+  opacity: 50%;
   font-size: 16px;
   font-family: "Comfortaa", cursive;
   margin-top: 60px;
@@ -192,8 +177,9 @@ button {
   border-radius: 20px;
   font-family: "Permanent Marker", cursive;
   font-size: 16px;
-  color: plum;
-  border: solid 2px plum;
+  color: #8594e4;
+  background-color: #d5def5;
+  border: solid 2px #8594e4;
 }
 
 @media (max-width: 768px) {
