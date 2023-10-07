@@ -1,5 +1,12 @@
 body {
   background-color: #430f58;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  container {
+    margin-left: 60px;
+  }
 }
 
 h1 {
@@ -19,7 +26,29 @@ h5 {
   color: black;
   text-decoration: bold;
   font-size: 24px;
+  margin-top: 20px;
+  padding: 20px;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  h3 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  h5 {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+
 hr {
   border: 3px solid white;
   width: 500px;
@@ -28,6 +57,19 @@ hr {
 
   transform: skew(100deg);
 }
+
+@media (max-width: 768px) {
+  hr {
+    width: 350px;
+  }
+}
+
+@media (max-width: 430px) {
+  hr {
+    width: 200px;
+  }
+}
+
 .hero {
   display: block;
   text-align: center;
@@ -54,6 +96,13 @@ hr {
   border: solid 2px #9e85ac;
 }
 
+@media (max-width: 768px) {
+  .rounded-container {
+    width: 300px;
+    height: 300px;
+  }
+}
+
 .rounded-container-3 {
   color: black;
   border-radius: 50%;
@@ -70,10 +119,21 @@ hr {
   border: solid 2px #9e85ac;
 }
 
+@media (max-width: 768px) {
+  container {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .rounded-container {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 #navbar {
   font-family: "Comfortaa", cursive;
   background-color: #defcf9;
-  max-width: 100%;
 }
 
 .navbar-brand {
@@ -95,6 +155,14 @@ hr {
   width: 280px;
 }
 
+@media (max-width: 768px) {
+  .project-images {
+    transform: scale(0.8);
+    position: relative;
+    bottom: 10%;
+  }
+}
+
 .world-clock-para {
   font-size: 14px;
 }
@@ -106,6 +174,12 @@ hr {
   margin-top: 60px;
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 1175px) {
+  .project-para {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -120,4 +194,14 @@ button {
   font-size: 16px;
   color: plum;
   border: solid 2px plum;
+}
+
+@media (max-width: 768px) {
+  button {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
 }
