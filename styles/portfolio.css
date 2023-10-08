@@ -215,3 +215,12 @@ button {
     text-align: center;
   }
 }
+
+.get-in-touch {
+  float: right;
+  font-size: 50px;
+  color: #8594e4;
+  padding: 5px;
+  position: relative;
+  top: 20px;
+}
