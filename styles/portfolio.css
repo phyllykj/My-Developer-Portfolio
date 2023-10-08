@@ -192,7 +192,26 @@ button {
   }
 }
 
-.homepage-buttons {
-  align-items: right;
+.homepage-button-1 {
+  float: left;
   font-size: 24px;
+  margin: 20px;
+  padding: 30px;
+  background-color: #6643b5;
+}
+
+.homepage-button-2 {
+  float: right;
+  font-size: 24px;
+  margin: 20px;
+  padding: 30px;
+  background-color: #6643b5;
+}
+
+@media (max-width: 768px) {
+  .homepage-button-1,
+  .homepage-button-2 {
+    font-size: 16px;
+    text-align: center;
+  }
 }
