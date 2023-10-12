@@ -105,6 +105,7 @@ button {
   color: #8594e4;
   background-color: #d5def5;
   border: solid 2px #8594e4;
+  text-align: center;
 }
 
 .homepage-button-1 {
@@ -130,10 +131,10 @@ button {
   top: 20px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1200px) {
   .rounded-container {
-    width: 370px;
-    height: 370px;
+    width: 300px;
+    height: 300px;
   }
 }
 @media (min-width: 426px) and (max-width: 767px) {
@@ -148,23 +149,29 @@ button {
   .homepage-button-2 {
     font-size: 16px;
     text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
-  button {
+  .project-para button {
     text-align: center;
-    margin: 0 auto;
     display: block;
+    margin: 0 auto;
     margin-top: 15px;
     margin-bottom: 20px;
   }
   .project-para {
+    display: block;
+    margin: 0 auto;
     display: none;
   }
 
   .project-images {
-    transform: scale(0.8);
+    transform: scale(0.9);
     position: relative;
-    bottom: 10%;
+    bottom: 2%;
   }
   h1 {
     font-size: 60px;
