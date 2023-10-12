@@ -108,7 +108,6 @@ button {
 }
 
 .homepage-button-1 {
-  float: left;
   font-size: 24px;
   margin: 20px;
   padding: 30px;
@@ -116,7 +115,6 @@ button {
 }
 
 .homepage-button-2 {
-  float: right;
   font-size: 24px;
   margin: 20px;
   padding: 30px;
@@ -144,10 +142,6 @@ button {
     height: 350px;
     display: block;
     margin: 0 auto;
-  }
-
-  .get-in-touch {
-    font-size: 16px;
   }
 
   .homepage-button-1,
@@ -222,13 +216,20 @@ button {
   hr {
     width: 200px;
   }
+
+  .homepage-button-1,
+  .homepage-button-2 {
+    padding: 20px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 1175px) {
   .project-para {
     font-size: 14px;
-  }
-  container {
-    align-items: center;
   }
 }
