@@ -97,7 +97,7 @@ hr {
   justify-content: space-between;
 }
 
-button {
+.learn-more {
   padding: 20px;
   border-radius: 20px;
   font-family: "Permanent Marker", cursive;
@@ -113,6 +113,10 @@ button {
   margin: 20px;
   padding: 25px;
   background-color: #6643b5;
+  color: #8594e4;
+  font-family: "Permanent Marker", cursive;
+  border: solid 2px #8594e4;
+  border-radius: 20px;
   float: right;
 }
 
@@ -121,7 +125,19 @@ button {
   margin: 20px;
   padding: 25px;
   background-color: #6643b5;
+  color: #8594e4;
+  font-family: "Permanent Marker", cursive;
+  border: solid 2px #8594e4;
+  border-radius: 20px;
   float: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
 }
 
 .get-in-touch {
@@ -172,12 +188,13 @@ button {
     margin-bottom: 10px;
   }
 
-  button {
+  .learn-more {
     text-align: center;
     margin: 0 auto;
     display: block;
     margin-top: 15px;
     margin-bottom: 20px;
+    width: 200px;
   }
   .project-para {
     display: flex;
@@ -225,12 +242,13 @@ button {
     margin-bottom: 10px;
   }
 
-  button {
+  .learn-more {
     text-align: center;
     margin: 0 auto;
     display: block;
     margin-top: 15px;
     margin-bottom: 20px;
+    width: 200px;
   }
   .project-para {
     display: none;
@@ -270,12 +288,13 @@ button {
     position: relative;
     bottom: 10%;
   }
-  button {
+  .learn-more {
     text-align: center;
     margin: 0 auto;
     display: block;
     margin-top: 15px;
     margin-bottom: 20px;
+    width: 200px;
   }
 
   h1 {
@@ -302,5 +321,6 @@ button {
     margin-top: 10px;
     margin-bottom: 10px;
     float: none;
+    width: 132px;
   }
 }
