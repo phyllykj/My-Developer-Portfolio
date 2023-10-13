@@ -109,17 +109,19 @@ button {
 }
 
 .homepage-button-1 {
-  font-size: 24px;
+  font-size: 20px;
   margin: 20px;
-  padding: 30px;
+  padding: 25px;
   background-color: #6643b5;
+  float: right;
 }
 
 .homepage-button-2 {
-  font-size: 24px;
+  font-size: 20px;
   margin: 20px;
-  padding: 30px;
+  padding: 25px;
   background-color: #6643b5;
+  float: left;
 }
 
 .get-in-touch {
@@ -161,7 +163,8 @@ button {
 
   .homepage-button-1,
   .homepage-button-2 {
-    font-size: 16px;
+    font-size: 18px;
+    padding: 20px;
     text-align: center;
     display: block;
     margin: 0 auto;
@@ -213,7 +216,8 @@ button {
 
   .homepage-button-1,
   .homepage-button-2 {
-    font-size: 16px;
+    font-size: 18px;
+    padding: 20px;
     text-align: center;
     display: block;
     margin: 0 auto;
@@ -292,9 +296,11 @@ button {
   .homepage-button-2 {
     padding: 20px;
     text-align: center;
+    font-size: 20px;
     display: block;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    float: none;
   }
 }
