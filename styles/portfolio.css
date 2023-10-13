@@ -133,14 +133,28 @@ button {
 
 @media (min-width: 768px) and (max-width: 1200px) {
   .rounded-container {
-    width: 300px;
-    height: 300px;
+    width: 330px;
+    height: 330px;
+  }
+  .project-images {
+    transform: scale(0.9);
+    position: relative;
+    bottom: 6%;
+  }
+
+  h5 {
+    font-size: 18px;
+    padding: 10px;
+  }
+  .project-para {
+    font-size: 14px;
   }
 }
-@media (min-width: 426px) and (max-width: 767px) {
+
+@media (min-width: 576px) and (max-width: 767px) {
   .rounded-container {
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
     display: block;
     margin: 0 auto;
   }
@@ -155,23 +169,73 @@ button {
     margin-bottom: 10px;
   }
 
-  .project-para button {
+  button {
     text-align: center;
-    display: block;
     margin: 0 auto;
+    display: block;
     margin-top: 15px;
     margin-bottom: 20px;
   }
   .project-para {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .project-images {
+    transform: scale(0.8);
+    position: relative;
+    bottom: 8%;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h5 {
+    font-size: 16px;
+    padding: 10px;
+  }
+  hr {
+    width: 350px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 575px) {
+  .rounded-container {
+    width: 320px;
+    height: 320px;
     display: block;
     margin: 0 auto;
+  }
+
+  .homepage-button-1,
+  .homepage-button-2 {
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  button {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  .project-para {
     display: none;
   }
 
   .project-images {
-    transform: scale(0.9);
+    transform: scale(0.8);
     position: relative;
-    bottom: 2%;
+    bottom: 8%;
   }
   h1 {
     font-size: 60px;
@@ -232,11 +296,5 @@ button {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-  }
-}
-
-@media (max-width: 1175px) {
-  .project-para {
-    font-size: 14px;
   }
 }
