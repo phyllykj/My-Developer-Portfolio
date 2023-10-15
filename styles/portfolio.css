@@ -14,14 +14,31 @@ h3 {
   font-size: 35px;
   color: white;
 }
-
-h5 {
+h4 {
   font-family: "Comfortaa", cursive;
   color: #8594e4;
   text-decoration: bold;
-  font-size: 24px;
+  font-size: 30px;
   margin-top: 20px;
   padding: 20px;
+}
+
+h5 {
+  font-family: "Comfortaa", cursive;
+  text-decoration: bold;
+  font-size: 26px;
+  margin-top: 20px;
+  padding: 20px;
+  color: #8594e4;
+}
+
+h6 {
+  font-family: "Comfortaa", cursive;
+  text-decoration: bold;
+  font-size: 20px;
+  color: white;
+  opacity: 50%;
+  margin: 30px;
 }
 
 hr {
@@ -36,6 +53,7 @@ hr {
 p {
   font-size: 17px;
   font-family: "Comfortaa", cursive;
+  color: #8594e4;
 }
 
 .hero {
@@ -114,6 +132,14 @@ p {
   justify-content: space-between;
 }
 
+ul {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Comfortaa", cursive;
+  color: white;
+  opacity: 50%;
+  margin: 30px;
+}
 .learn-more {
   padding: 20px;
   border-radius: 20px;
@@ -155,6 +181,14 @@ a {
 
 a:visited {
   text-decoration: none;
+}
+
+.certificate-link {
+  font-size: 20px;
+  margin-left: 5px;
+  background-color: #6643b5;
+  color: #8594e4;
+  font-family: "Permanent Marker", cursive;
 }
 
 .get-in-touch {
@@ -364,5 +398,17 @@ a:visited {
 
   p {
     font-size: 12px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 16px;
+  }
+
+  ul {
+    font-size: 14px;
   }
 }
