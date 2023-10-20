@@ -49,6 +49,20 @@ h6 {
   padding: 20px;
   color: #8594e4;
 }
+
+.contact-icons {
+  font-size: 100px;
+  color: #8594e4;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-table {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+  text-align: center;
+}
 hr {
   border: 3px solid white;
   width: 500px;
@@ -295,6 +309,10 @@ a:visited {
   .project-titles {
     font-size: 18px;
   }
+
+  .contact-icons {
+    font-size: 80px;
+  }
   h1 {
     font-size: 60px;
   }
@@ -348,6 +366,10 @@ a:visited {
     transform: scale(0.8);
     position: relative;
     bottom: 8%;
+  }
+
+  .contact-icons {
+    font-size: 70px;
   }
   h1 {
     font-size: 60px;
@@ -415,6 +437,10 @@ a:visited {
   .project-titles {
     font-size: 18px;
     text-align: center;
+  }
+
+  .contact-icons {
+    font-size: 50px;
   }
 
   .homepage-button-1,
