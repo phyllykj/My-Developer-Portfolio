@@ -129,7 +129,7 @@ p {
 }
 
 .phylly {
-  height: 40px;
+  height: 50px;
   width: 40px;
   border-radius: 50%;
   opacity: 80%;
@@ -446,7 +446,7 @@ footer {
   }
 
   .contact-icons {
-    font-size: 70px;
+    font-size: 50px;
   }
   h1 {
     font-size: 60px;
@@ -517,7 +517,7 @@ footer {
   }
 
   .contact-icons {
-    font-size: 50px;
+    font-size: 30px;
   }
 
   .homepage-button-1 {
