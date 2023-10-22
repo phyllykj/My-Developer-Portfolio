@@ -332,6 +332,10 @@ footer {
     font-size: 19px;
     padding: 5px;
   }
+
+  h6 {
+    font-size: 18px;
+  }
   .project-para {
     font-size: 14px;
   }
@@ -411,6 +415,10 @@ footer {
   p {
     font-size: 14px;
   }
+
+  h6 {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 426px) and (max-width: 575px) {
@@ -480,6 +488,10 @@ footer {
 
   p {
     font-size: 14px;
+  }
+
+  h6 {
+    font-size: 16px;
   }
 }
 
