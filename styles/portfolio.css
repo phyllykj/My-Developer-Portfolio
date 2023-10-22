@@ -167,6 +167,15 @@ p {
   justify-content: space-between;
 }
 
+.project-para-2 {
+  color: white;
+  margin-bottom: 20px;
+  opacity: 50%;
+  font-size: 16px;
+  font-family: "Comfortaa", cursive;
+  display: flex;
+  justify-content: space-between;
+}
 .reach-out {
   text-align: center;
 }
@@ -556,7 +565,7 @@ footer {
   }
 
   h6 {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   ul {
